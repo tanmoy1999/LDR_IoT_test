@@ -4,9 +4,9 @@
  
 #include <ThingSpeak.h>;
  
-const char* ssid = "D-Link_DIR-600M"; //Your Network SSID
+const char* ssid = "Your Network SSID"; //Your Network SSID
  
-const char* password = "alliswell"; //Your Network Password
+const char* password = "Your Network Password"; //Your Network Password
  
 int val;
  
@@ -18,7 +18,7 @@ WiFiClient client;
  
 unsigned long myChannelNumber = 849263; //Your Channel Number (Without Brackets)
  
-const char * myWriteAPIKey = "54G6BZBCSE0UETKC"; //Your Write API Key
+const char * myWriteAPIKey = "your api key"; //Your Write API Key
  
 void setup()
  
